@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white text-black;
+}
+
+/* Global button styling with enhanced rounded corners */
+.btn {
+  @apply px-4 py-3 rounded-full font-semibold transition-colors duration-200 text-center shadow-sm;
+}
+
+/* Primary action buttons - UTSA orange */
+.btn-primary {
+  @apply bg-utsa-orange text-white hover:bg-utsa-blue shadow-md;
+}
+
+/* Secondary action buttons - UTSA blue */
+.btn-secondary {
+  @apply bg-utsa-blue text-white hover:bg-utsa-orange shadow-md;
+}
+
+/* Text button styles */
+.btn-text {
+  @apply text-utsa-blue hover:text-utsa-orange underline;
+}
+
+/* Card styling with subtle border */
+.card {
+  @apply bg-white rounded-lg shadow-md p-4 border border-transparent border-t-2 border-t-utsa-orange;
+  transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Form input styling */
+.input {
+  @apply w-full p-3 border border-light-gray rounded-full focus:outline-none focus:ring-2 focus:ring-utsa-orange;
+}
+
+/* Section headers */
+.section-title {
+  @apply text-2xl font-bold text-utsa-blue mb-4;
+}
+
+/* Accent text */
+.accent-text {
+  @apply text-utsa-orange font-semibold;
+} 
