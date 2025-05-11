@@ -4,6 +4,8 @@ export const categories = [
   'Totebags',
 ];
 
+const basePath = `${import.meta.env.BASE_URL}images/products/`;
+
 // Sample products data
 export const products = [
   {
@@ -15,7 +17,7 @@ export const products = [
     condition: 'Nuevo',
     sellerId: '2',
     sellerName: 'Jane Smith',
-    imageUrl: '/images/products/pin1.jpg',
+    imageUrl:  `${basePath}pin1.jpg`,
     createdAt: '2023-03-15T10:30:00Z'
   },
   {
@@ -27,7 +29,7 @@ export const products = [
     condition: 'Edición limitada',
     sellerId: '3',
     sellerName: 'Mike Johnson',
-    imageUrl: '/images/products/pin2.jpg',
+    imageUrl: `${basePath}pin2.jpg`,
     createdAt: '2023-03-16T11:00:00Z'
   },
   {
@@ -39,7 +41,7 @@ export const products = [
     condition: 'Edición limitada',
     sellerId: '4',
     sellerName: 'Sarah Williams',
-    imageUrl: '/images/products/pin3.jpg',
+    imageUrl: `${basePath}pin3.jpg`,
     createdAt: '2023-03-17T12:15:00Z'
   },
   {
@@ -51,7 +53,7 @@ export const products = [
     condition: 'Unico',
     sellerId: '2',
     sellerName: 'Jane Smith',
-    imageUrl: '/images/products/bolsa1.jpg',
+    imageUrl: `${basePath}bolsa1.jpg`,
     createdAt: '2023-03-18T13:45:00Z'
   },
   {
@@ -63,7 +65,7 @@ export const products = [
     condition: 'Unico',
     sellerId: '2',
     sellerName: 'Jane Smith',
-    imageUrl: '/images/products/bolsa2.jpg',
+    imageUrl: `${basePath}bolsa2.jpg`,
     createdAt: '2023-03-18T13:45:00Z'
   },
   {
@@ -75,7 +77,7 @@ export const products = [
     condition: 'Nuevo',
     sellerId: '2',
     sellerName: 'Jane Smith',
-    imageUrl: '/images/products/bolsa3.jpg',
+    imageUrl: `${basePath}bolsa3.jpg`,
     createdAt: '2023-03-18T13:45:00Z'
   }
 ];

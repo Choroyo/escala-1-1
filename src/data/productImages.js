@@ -1,4 +1,6 @@
 // Product image categories and paths
+const basePath = `${import.meta.env.BASE_URL}images/products/`;
+
 const productImages = {
   electronics: [
     '/images/products/calculator.jpg',
@@ -27,16 +29,16 @@ const productImages = {
   
   ],
   pins: [
-    '/images/products/pin1.jpg',
-    '/images/products/pin2.jpg',
-    '/images/products/pin3.jpg',
-
+    `${basePath}pin1.jpg`,
+    `${basePath}pin2.jpg`,
+    `${basePath}pin3.jpg`
   ],
   bolsas: [
-    '/images/products/bolsa1.jpg',
-    '/images/products/bolsa2.jpg',
-    '/images/products/bolsa3.jpg',
+    `${basePath}bolsa1.jpg`,
+    `${basePath}bolsa2.jpg`,
+    `${basePath}bolsa3.jpg`
   ],
+
   'school supplies': [
     '/images/products/backpack.jpg',
     '/images/products/notebooks.jpg',

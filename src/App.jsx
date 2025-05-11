@@ -61,7 +61,7 @@ function App() {
   }, [addOrder]);
 
   return (
-    <Router>
+    <Router basename="/escala-1-1">
       <div className="min-h-screen flex flex-col bg-white">
         <Toaster position="top-right" />
         <Layout>
